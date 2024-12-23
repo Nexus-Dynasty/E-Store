@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="King Harrison">
+    <link rel="icon" href="https://i.ibb.co/hywDZCC/20240816-165859.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Store | Home</title>
+</head>
+<body>
+    <a id="top" href="#"><i class="bi bi-arrow-up-circle"></i></a>
+
+  <header>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+
+             <h1 class="logo">
+                <div class="logo"></div>
+                E-Store
+            </h1>
+
+            <ul class="menu-items">
+                <a class="active" href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Search</li>
+                </a>
+                <a href="#">
+                    <li>Favorites</li>
+                </a>
+                <div class="tab">
+                    <a href="cart.html">
+                        <span class="relative text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" # height="24" viewBox="0 0 24 24" stroke-width="2"
+                                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" />
+                                <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+                            </svg>
+                            <small id="cart-count"
+                                class="bg-red-500 text-xs text-white w-4 h-4 absolute -top-2 -right-2 rounded-full">0</small>
+                        </span>
+                    </a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+  </header>
+
+    <main><br><br><br>
+        <article>
+            <h1 class="showcase">Our <b>Products</b></h1>
+        </article>
+
+        <section>
+            <div class="search-btn">
+                <label>
+                    <i class="bi bi-search"></i>
+                    <input type="search" name="" placeholder="Search Products">
+                    <i class="bi bi-filter"></i>
+                </label>
+            </div>
+            
+            <div class="h-tab">
+                <button class="product outline">All </button>
+                <button class="product outline">Shirt </button>
+                <button class="product outline">Top </button>
+                <button class="product outline">Sneakers </button>
+                <button class="product outline">Jacket </button>
+                <button class="product outline">Bracelet </button>
+                <button class="product outline">Socks</button>
+                <button class="product outline">Shorts </button>
+                <button class="product outline">Socks</button>
+            </div>
+            
+            <div class="">
+                <div id="products-wrapper"
+                    class="w-full max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-6 place-content-center p-4">
+                </div>
+            </div>
+        </section>
+    </main> 
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
